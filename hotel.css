@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;    
+}
+body{
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+}
+h1{
+ font-style:italic;
+ margin-left: 10px;
+}
+
+.navbar1{
+    display:flex;
+    align-items:center;
+    column-gap: 20px; 
+    order: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+   /* box-shadow: inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25);*/
+     box-shadow: 0px 3px 10px 3px gray; 
+    position:sticky;
+    top: 0;
+    background-color: whitesmoke;
+    cursor: pointer;
+    outline: 2px solid black;
+}
+.searchbar  input {
+width:550px ;
+    height: 27px;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+   
+
+  
+}
+.searchbar ::placeholder{
+    padding-left: 2px;
+    color: black;
+    
+
+
+}
+.searchbar {
+    align-content: center;
+    margin-right:px ;
+    order: 3;
+   
+    
+    
+    
+}
+
+
+.navbarlink a{
+    text-decoration: none;
+    color: rgb(1, 1, 12);
+    padding: 10px;
+    font-size: 23px;
+    transition-property:  background;
+    transition-duration:0.3s ;
+    transition-timing-function: ease-in-out;
+    border-radius:30px ;
+    
+ 
+
+}
+.navbarlink :hover {
+    background-color: whitesmoke;
+    border-radius:30px ;
+    color:black;
+   
+    
+
+    
+  /*  border: 2px;
+    border-style:solid;
+    border-color: black; 
+    */ 
+    cursor: pointer;
+   box-shadow: 0px  0px 5px 2px gray;
+    
+}
+.navbar-menu-toggle{
+    font-size: ;
+    align-content: center;
+    display: none;
+    
+    
+}
+.side-navbar{
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    background-color: grey;
+    display: none;
+}
+.arrow{
+    left: 85%;
+    top:5px;
+    position:absolute;
+    display: block;
+}
+.arrow:hover{
+    color: aliceblue;
+}
+
+
+.navbarlink2{
+    padding: 10px 0px 10px 0px ;
+    margin: 15px 0px 15px 0px ;
+    text-align: center;
+    position:relative;
+    top: 30px;
+
+}
+
+
+.navbarlink2:hover{
+background:rgb(247, 247, 247);
+    border-radius:60px 60px 60px 60px ;
+    color:black;
+    align-items: center;
+    
+
+
+    
+      
+    border:  0px 0px 0px 0px;
+    border-style:;
+    border-color:   
+    cursor: pointer;
+    
+    cursor: pointer;  
+    
+}
+.navbar2 a{
+    text-decoration: none;
+   color: rgb(20, 17, 13);
+    padding:10px;
+    font-size: 29px;
+    
+    
+    
+}
+
+.fa-solid {
+    font-size: 35px
+}
+.navbar-menu-toggle {
+    font-size: px;
+}
+ ul a :active{
+    color:red;
+    
+}
+P{
+    padding:10px;
+}
+
+
+    
+
+
+
+
+@media screen and ( max-width:600px){
+    .navbar-menu-toggle{
+        display: block;
+        order: 3;
+    
+            
+            align-content: center;
+        }
+        #toggledra{
+            font-size:30px;
+            
+            r
+            l
+
+        }
+    
+
+    .navbar1{
+        display: none;
+
+    }
+    .navbarlink2 a {
+        font-size: 15px;
+    
+            }
+            .arrow {
+                left: 65%;
+                font-weight: 300;    
+                
+
+                
+                
+                
+                    }
+                    #arrowdra{
+                        font-size: 30px;
+                    
+                    }
+                   /* .fa-solid {
+                        font-size: 15px;
+                        margin-top: 5px;
+                        
+                    }*/
+                    .navbarlink2{
+                        padding: 5px 0px 5px 0px ;
+                        margin: 15px 0px 15px 0px ;
+
+                    }
+                    .navbar {
+                        padding: 7px;
+                    }
+                    
+                    .searchbar input {
+                        width:200px ;
+                          height: 25px;
+                             font-size: 15px;
+                          position: relative;
+                             left: -40px;
+                             align-content: center;
+                            
+
+                        
+                        }
+                       
+                        .searchbar {
+                            order: none;
+                        
+                        
+                        }
+                      
+
+                                            }
+                    
+            
+
+
+
+
+
+
+
