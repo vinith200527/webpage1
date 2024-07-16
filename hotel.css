@@ -101,7 +101,8 @@ width:550px ;
     position: fixed;
     height: 100%;
     background-color: grey;
-    display: none;
+    left:-20%;
+    transition: all 2s;
 }
 .arrow{
     left: 85%;
@@ -135,9 +136,8 @@ background:rgb(247, 247, 247);
     
       
     border:  0px 0px 0px 0px;
-    border-style:;
-    border-color:   
-    cursor: pointer;
+
+
     
     cursor: pointer;  
     
@@ -183,9 +183,7 @@ P{
         #toggledra{
             font-size:30px;
             
-            r
-            l
-
+    
         }
     
 
