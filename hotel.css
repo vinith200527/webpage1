@@ -1,6 +1,8 @@
 *{
     margin:0;
-    padding:0;    
+    padding:0;
+    box-sizing: border-box;  
+      
 }
 body{
     font-family: "Poppins", sans-serif;
@@ -27,9 +29,10 @@ h1{
      box-shadow: 0px 3px 10px 3px gray; 
     position:sticky;
     top: 0;
-    background-color: whitesmoke;
+    background-color:white;
     cursor: pointer;
     outline: 2px solid black;
+    z-index: 3;
 }
 .searchbar  input {
 width:550px ;
@@ -52,7 +55,7 @@ width:550px ;
 .searchbar {
     align-content: center;
     margin-right:px ;
-    order: ;
+
    
     
     
@@ -143,7 +146,7 @@ background:rgb(247, 247, 247);
 }
 .navbar2 a{
     text-decoration: none;
-   color: rgb(20, 17, 13);
+   color: rgb(0, 0, 0);
     padding:10px;
     font-size: 29px;
     
@@ -165,8 +168,122 @@ P{
     padding:10px;
 }
 
+.photo{
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;
+}
+img{
+    width: 100%;
+}
+
+.header {
+    display: flex;
+text-align: right;
+    
+    justify-content: center;
+    gap: 100px;
+    padding: 80px 50px;
+}
+.header-button{
+    background-color: black;
+    color:white;
+     padding: 10px ;
+     border-radius: 50px;
+     text-decoration: none;
+}
+
+.service-container-1{
+    justify-content:center;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 80px;
+    
+
+}
+.serivce-container-2{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    
+}
+.serivce-container-2  div {
+    background: rgb(147, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.serivce-container-2  div p{
+    color: white;
+    font-style: italic;
+
+}
+.new-arrival-container img {
+    width: 200px;
+    height: 200px;
+    
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis:20%;
+}
+
+.new-arrival-containe img{
+    width: 100%;
+}
+.new-arrival{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 30px;
+}
+.new-arrival-container  button{
+    position:absolute;
+    display: block;
+    top: 50%;
+    left: 30%;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50Px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    
 
     
+}
+.newarr{
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.most{
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.news{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 30px;
+}
+.news input{
+    width: 80vw;
+    height: 40px;
+    border: solid black 3px;
+    margin-bottom: 10px;
+}
+.subscrip{
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 30%;
+    margin-bottom: 30px;
+}
 
 
 
@@ -184,6 +301,7 @@ P{
             
     
         }
+
     
 
     .navbar1{
@@ -219,6 +337,7 @@ P{
                     }
                     .navbar {
                         padding: 7px;
+                        z-index: 3;
                     }
                     
                     .searchbar input {
@@ -238,9 +357,30 @@ P{
                         
                         
                         }
-                      
+                        .photo{
+                            display: none;
+                        }
+                        .service-container-1{
+                            display: block;
+                          
+                            
+                    
+
+                        }
+                        .serivce-container-2{
+                            flex-direction: column;
+                        }
+                        .new-arrival{
+                            
+                            
+                            
+                            flex-direction: column;
+                            gap:40px;
+                            align-items: center;
+                        
 
                                             }
+                                        }
                     
             
 
